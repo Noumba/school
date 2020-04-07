@@ -1,0 +1,5 @@
+header
+ #main-header p{
+ 	border-left: 2px solid black;
+ 	border-right: 2px solid black;
+ }
