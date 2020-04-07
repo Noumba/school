@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('contacts', 'ContactController');
+
+Route::view('about','about');
+Route::view('depart','department');
+Route::view('courses','courses');
+Route::view('blog','blog');
+Route::view('contact','contact');
+Route::view('teachers','teachers');
+Route::view('blog-single','blog-single');
